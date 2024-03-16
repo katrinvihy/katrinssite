@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Forum&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Unbounded:wght@200..900&display=swap');
+
+body{
+	background-color: #F47995;
+}
+p{
+	font-size: 45px;
+	color: #2874B8;
+	text-align: center;
+	font-family: "Forum", serif;
+}
+.in1{
+	display: block;
+	margin-bottom: 20px;
+	height: 1cm;
+	font-size: 24px;
+	font-family: "DM Serif Display", serif;
+	color: black;
+	background-color: revert;
+	position: relative;
+}
+.s1, .s2, .s3{
+	font-size: 24px;
+	margin: 10px;
+	font-family: "DM Serif Display", serif;
+	position: relative;
+}
+.s2{
+	color: powderblue;
+}
+.in3{
+	width: 30px;
+	height: 30px;
+	background-color: powderblue;
+	font-family: "DM Serif Display", serif;
+	position: relative;
+}

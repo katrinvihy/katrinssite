@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Forum&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Unbounded:wght@200..900&display=swap');
+header {
+  background: url(https://i.pinimg.com/564x/62/09/4c/62094ca7183d25b22eb6f88a53d5ab71.jpg);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  
+  border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+  width: 100%;
+
+  text-shadow: 1px 1px 1px #333;
+  
+}
+
+@media only screen and (max-width:800px){
+  nav,main,aside, .overlay{
+    width: 100%;
+  }
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 5px 25px 0 #8A189C;
+}
+article{
+
+  margin: 10px;
+text-align: center;
+display: inline-block;
+font-size: 27px;
+font-family: "Forum", serif;}
+
+h1{
+	color: #902CA0;
+    font-family: "Prompt", sans-serif;
+   font-weight: 600;
+  font-style: normal;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+h2{
+	color: #902CA0;
+	font-family:  "Ubuntu", sans-serif ;
+  text-align: center;
+   font-size: 30px;
+}
+p{
+	color: #AC45AA;
+  font-family: "Forum", serif;
+  margin-bottom: 30px;
+  font-size: 25px;
+text-shadow: #fff 1px 0 10px;
+}
+.buttonsp{
+  margin: 0 auto;
+  display: block;
+}
+button{
+  margin: 3px;
+   border: none;
+  outline: none;
+  padding: 20px 30px;
+  border-radius: 50px;
+  color: #333;
+  background: #fff;
+  margin-bottom: 50px;
+  box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+  cursor: pointer;
+}
+h4{
+	color: black;
+	 font-family: 'Open Sans', sans-serif;
+}
+
+
+/* CSS */
+.button-28 {
+  margin: 0 auto;
+  display: block;
+  margin: 3px;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #8F3C9C ;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 20px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: black;
+  background-color: #FC72FA;
+  box-shadow: rgba(0, 0, 0, 0.29) 0 10px 20px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+a{
+    transition: border-radius 0.2s linear 0s;
+    transform: rotate(45deg);
+    
+    i {
+      transition: transform 0.01s linear 0s;
+      transform: rotate(-45deg);
+    }
+    
+    &:hover {
+      border-radius: 0px;
+    }
+  }
+}
+.effect.amiens{
+  a{
+    transition: all 0.2s linear 0.2s;
+    
+    i{
+      transition: all 0.2s linear 0s;
+    }
+    
+    &:hover {
+      transition: all 0.2s linear 0s;
+      border-color: rgba($basic-dark-color,0);}
+
+      
+      i{
+        transform: scale(1.15);
+        text-shadow: 10px 0px 10px rgba($basic-dark-color,0.5);
+        transition: all 0.2s linear 0.2s;
+      }
+    }
+  }
+}
+
